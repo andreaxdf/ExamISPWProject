@@ -3,7 +3,7 @@ public class AlphabeticSort {
     private AlphabeticSort() {}
 
     public static void main(String[] args) {
-        String[] list = {"Andrea", "Mario", "Gianmatteo", "Davide"};
+        String[] list = {"Mario", "Gianmatteo", "Andrea", "Davide"};
         alphabeticSort(list);
 
         for(String s: list) {
