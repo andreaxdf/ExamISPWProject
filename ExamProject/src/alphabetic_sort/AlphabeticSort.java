@@ -1,15 +1,8 @@
+package alphabetic_sort;
+
 public class AlphabeticSort {
 
     private AlphabeticSort() {}
-
-    public static void main(String[] args) {
-        String[] list = {"Mario", "Gianmatteo", "Andrea", "Davide"};
-        alphabeticSort(list);
-
-        for(String s: list) {
-            System.out.println(s);
-        }
-    }
 
     public static void alphabeticSort(String[] list) {
         String temp;
